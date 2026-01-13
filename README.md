@@ -9,12 +9,21 @@
 -   `fetch(url, {opt})` - built in JS function, that allows us to make requests
 -   `axios` - useful library for handling and dealing with http requests
     - with axios you do NOT have to parse json. it is hanlded for you by AXIOS
+-   builds/adds a layer ontop of fetch, to make requests easier AND it gives us access to more function.
 
 ## Vocab:
 -   Request - object we send to ask a API/DB for information, we make a 'request'
 -   Reponse - object we recieve/GET back from a DB/API (Fufilled/Rejected)
 
 ## Types of Requests:
--   GET - getting/asking for information/data
+-   GET/READ - getting/asking for information/data
+-   UPDATE
+-   CREATE
+-   DELETE
+
+## Axios interceptors:
+-   run a function on response/request objects as they leave / return to our application before we pyhsically handle the data.
+-   they intercept the request as we send it.
+-   intercept response as we recieve it
 
 `My Website --request--> API/DB -- reponse --> My Website`
